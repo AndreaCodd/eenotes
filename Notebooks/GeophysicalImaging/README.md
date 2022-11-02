@@ -1,1 +1,2 @@
-Course Material for Geophyscial Imaging in python using FEM 
+# Course Material for Geophyscial Imaging in Python using FEM
+
