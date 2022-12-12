@@ -49,7 +49,15 @@ Surface(5) = {5};
 Line Loop(6) = {2, 11,-6, -10};
 Surface(6) = {6};
 
-// VOLUME
+// Volume
 Surface Loop(1) = {1:6};
 Volume(1) = {1}; 
+
+// Tagging
+Physical Surface("Top")={2};
+Physical Surface("Base")={1};
+Physical Volume("All")={1};
+
+
+
 
