@@ -64,10 +64,8 @@ class MT2Dmodel(object):
             ZComp.append(np.array(self.loc(Z)))
         return np.array(ZComp)  
 
-########################  Solves ONE forward problem (TE and TM) 
-########################  for given frequency  om = 2 pi T
-########################  where T is the period in seconds
-#           for forward problems only.   
+########################   
+########################     
 
  
 class MT2DTE(object):
@@ -188,7 +186,8 @@ class MT2DTE(object):
 
 class MT2DTM(object):
     """
-    
+    Solve ONE MT TM problem for frequency  om = 2 pi T,
+    where T is the period in seconds.
     """
     def __init__(self, domain, sensors, mu=4*np.pi*1e-7, fixBottom=False, airLayer=None):
         """
